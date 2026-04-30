@@ -1,0 +1,80 @@
+body {
+    background: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#intro {
+    text-align: center;
+    color: rebeccapurple;
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: teal;
+    text-shadow:
+      0px 1px 0px #ccc,
+      0px 2px 0px #bbb,
+      0px 3px 0px #aaa,
+      0px 4px 0px #999,
+      0px 5px 0px #888,
+      0px 6px 10px rgba(0,0,0,0.6);
+}
+input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    background: darkseagreen;
+    color: #eee;
+}
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background: darkseagreen;
+    color: #eee
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+    border: 1px solid #555;
+}
+button:hover {
+    background: cadetblue;
+}
+#message {
+    color: #e94560;
+    min-height: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.meaning-block {
+    background: navajowhite;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    box-shadow:
+      0 10px 20px rgba(0,0,0,0.4),
+      0 6px 6px rgba(0,0,0,0.3);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+#word-result {
+    font-size: 32px;
+    text-shadow:
+      0px 1px 0px #555,
+      0px 3px 0px #333,
+      0px 5px 8px rgba(0,0,0,0.5);
+}
+.part-of-speech { color: brown; font-size: x-large;
+.example { color: #888; font-style: italic; }
+.synonyms { color: #4ecca3; }
+.antonyms { color: #e94560; }
+.phonetic { color: #4ecca3; font-size: 20px; }
+
