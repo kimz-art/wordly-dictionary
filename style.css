@@ -37,7 +37,7 @@ button {
     padding: 10px 16px;
     font-size: 16px;
     background: darkseagreen;
-    color: #eee
+    color: #eee;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -78,3 +78,4 @@ button:hover {
 .antonyms { color: #e94560; }
 .phonetic { color: #4ecca3; font-size: 20px; }
 
+}
